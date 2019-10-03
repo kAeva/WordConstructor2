@@ -1,3 +1,4 @@
+package ConstructorForWords;
 public class LetterJ extends OrdinaryLetter {
     {letterValue = 'j';}
     public void firstLine() {

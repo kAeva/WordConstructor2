@@ -1,3 +1,5 @@
+package ConstructorForWords;
+
 public class LetterA extends OrdinaryLetter {
     {letterValue = 'a';}
     public void firstLine() {System.out.print("      " + "A" + "       ");}

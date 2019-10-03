@@ -1,3 +1,4 @@
+package ConstructorForWords;
 import java.util.Scanner;
 
 public class WordConstructor {
@@ -7,7 +8,7 @@ public class WordConstructor {
         Scanner inputDevice = new Scanner(System.in);
         System.out.print("Type the word java here:\t");
         word = inputDevice.next();
-        OrdinaryLetter [] availableLetters = {new LetterJ(), new LetterA(), new LetterV(), new LetterK()};
+        OrdinaryLetter[] availableLetters = {new LetterJ(), new LetterA(), new LetterV(), new LetterK()};
         OrdinaryLetter [] wordToBuild = new OrdinaryLetter[word.length()];
 
 
@@ -35,7 +36,7 @@ public class WordConstructor {
 
 
 
-    public static void builder(OrdinaryLetter[] oLet) {
+    private static void builder(OrdinaryLetter[] oLet) {
 
 
             for (int k=0; k<oLet.length; k++) {

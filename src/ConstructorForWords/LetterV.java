@@ -1,3 +1,4 @@
+package ConstructorForWords;
 public class LetterV extends OrdinaryLetter {
     {letterValue = 'v';}
     public void firstLine() {System.out.print("  " + "V" + "       " + "V" + "  ");}
